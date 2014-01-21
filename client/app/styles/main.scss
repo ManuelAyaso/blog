@@ -13,8 +13,21 @@ body {
     color: #8d9aa5;
 }
 
+.contain-to-grid {
+    border-bottom: 3px solid #0AA4F7;
+}
+
+span.red {
+    color: #0AA4F7;
+}
+
 .content {
     margin-top: 50px;
+}
+
+.me-img {
+    width: 35px;
+    border-radius: 50%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
