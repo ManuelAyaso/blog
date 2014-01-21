@@ -11,6 +11,7 @@ body {
     padding-bottom: 20px;
     background-color: #f0f0f0;
     color: #8d9aa5;
+    font-size: 18px;
 } 
 
 .sticky {
@@ -20,6 +21,10 @@ body {
 
 .contain-to-grid {
     border-bottom: 3px solid #0AA4F7;
+}
+
+.row {
+    max-width: 750px;   
 }
 
 span.red {
@@ -85,6 +90,12 @@ span.red {
 
 .marketing p + h4 {
     margin-top: 28px;
+}
+
+@media only screen and (min-width: 940px) {
+    .contain-to-grid .top-bar {
+        max-width: 750px;
+    }
 }
 
 /* Responsive: Portrait tablets and up */
