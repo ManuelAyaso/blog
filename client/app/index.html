@@ -19,18 +19,18 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="clientApp">
+  <body data-ng-app="clientApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Top Bar -->  
-    <div class="contain-to-grid sticky">
+    <div class="contain-to-grid fixed">
       <nav class="top-bar">
         <ul class="title-area">
           <li class="name">
             <h1>
-              <a href="#"><img class="me-img" src="images/me.jpg"> Manuel <span class="red">Ayaso</span></a>
+              <a href="#"><img class="me-img" src="images/me.jpg"> Manuel <span class="name">Ayaso</span></a>
             </h1>
           </li>
 
@@ -41,10 +41,9 @@
         </ul>
         <section class="top-bar-section">
           <ul class="right">
-            <li><a href="#">Home</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
           </ul>
         </section>
       </nav>
@@ -52,7 +51,7 @@
     <!-- End Top Bar -->
 
     <!-- Add your site or application content here -->
-    <div class="content" ng-view=""></div>
+    <div class="content" data-ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -82,6 +81,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/blog.js"></script>
         <!-- endbuild -->
 </body>
 </html>

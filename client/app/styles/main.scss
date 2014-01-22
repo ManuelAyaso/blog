@@ -7,11 +7,17 @@
 
 /* Space out content a bit */
 body {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #f0f0f0;
+    background-color: #FCF3E5;
     color: #8d9aa5;
-    font-size: 18px;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #33383D;
 } 
 
 .sticky {
@@ -20,15 +26,33 @@ body {
 }
 
 .contain-to-grid {
-    border-bottom: 3px solid #0AA4F7;
+    border-bottom: 3px solid #2ba6cb;
 }
 
 .row {
     max-width: 750px;   
 }
 
-span.red {
-    color: #0AA4F7;
+article {
+    border-bottom: 1px dotted #dddddd;
+}
+
+a span.title {
+    color: #333;  
+}
+
+a span.title:hover {
+    color: #2795b6; 
+}
+
+.bullet {
+    color: #dddddd;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+span.name {
+    color: #2ba6cb;
 }
 
 .content {

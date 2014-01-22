@@ -8,8 +8,8 @@ angular.module('clientApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/blog.html',
+        controller: 'BlogCtrl'
       })
       .otherwise({
         redirectTo: '/'
